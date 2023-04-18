@@ -19,4 +19,4 @@ export const Button= styled.button`
 
 @media(max-width: ${({theme})=> theme.mobile }){
     padding: .8em 3.5em;
-    `
+`
