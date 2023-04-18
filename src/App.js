@@ -22,13 +22,14 @@ function App() {
       <>
         <GlobalStyles />
         <Header />
-        <Container>
+        <Container> 
           {content.map((item, index)=>
             <Card key={index} item={item}></Card>
           )}
         </Container>
         <Footer />
       </>
+      
     </ThemeProvider>
   
   );
