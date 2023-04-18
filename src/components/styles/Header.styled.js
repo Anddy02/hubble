@@ -32,6 +32,7 @@ width: 375px;
 margin-left: 40px;
 
 @media(max-width: ${({theme})=> theme.mobile }){
-    margin-bottom: 40px 0 30px;
+    margin-botton: 40px 0 30px;
+    margin-top: 40px;
 }
 `

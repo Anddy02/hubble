@@ -17,5 +17,16 @@ export const StyledFooter = styled.footer`
         text-align: right;
     }
 
+    @media(max-width: ${({theme})=> theme.mobile }){
+    text-align: center;
+
+    ul{
+        padding: 0;
+    } 
+
+    p{
+        text-align: center;
+    }
+}
 
 `
