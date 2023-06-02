@@ -10,7 +10,7 @@ export default function Header(){
             <Container>
                 <Nav>
                     <Logo src="./images/logo.svg" alt=""></Logo>
-                    <Button>Try it Free</Button>
+                    <Button bg="#000" color="#fff" >Try it Free</Button>
                 </Nav>
 
                 <Flex>
